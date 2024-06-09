@@ -8,7 +8,7 @@ from utils.crop_image import crop_image
 
 # Load the environment variables
 load_dotenv()
-username = os.environ["GITHUB_USERNAME"]
+username = os.environ["USERNAME"]
 api_key = os.environ["TWITTER_API_KEY"]
 api_key_secret = os.environ["TWITTER_API_KEY_SECRET"]
 access_token = os.environ["TWITTER_ACCESS_TOKEN"]
